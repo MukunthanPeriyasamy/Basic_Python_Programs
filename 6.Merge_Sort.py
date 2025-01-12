@@ -36,7 +36,6 @@ def merge(left,right):
         mix[k] = right[r]
         r+=1
         k+=1
-    print(mix)
     return mix
 
 arr = [1,6,2,2,8,3,0,-1]
