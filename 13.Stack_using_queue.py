@@ -32,3 +32,5 @@ stack.print_stack()
 
 stack.pop()
 stack.print_stack()
+
+print(int(eval("7 + ( 4 - 5)")))
