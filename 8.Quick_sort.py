@@ -9,8 +9,7 @@ def quickSort(arr):
     right = [i for i in arr if i > pivot]
     middle = [i for i in arr if i == pivot]
     
-    mix = left + middle + right
-    print(" ".join(map(str,mix)))
+    
     return quickSort(left) + middle + quickSort(right)
 
 arr = [3,1,2,7,4,8,9,0]
